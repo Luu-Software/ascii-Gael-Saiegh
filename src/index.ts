@@ -7,13 +7,12 @@ function repetirLetra(letra: string, cantidad: number): string {
 
   let repeticiones: number = 0 ; 
 
-  while (repeticiones < cantidad)
-    resultado= resultado  + letra
- repeticiones= repeticiones+ 1 
-    
-
-    return resultado ; 
-   
+  while (repeticiones < cantidad) {  
+    resultado= resultado  + letra; 
+ repeticiones= repeticiones + 1 
+       } 
+ 
+       return resultado ;  
      }
  
 let caracter: string = preguntar('¿Con que caracter vas a dibujar el cuadrado? ');
