@@ -17,8 +17,8 @@ function repetirLetra(letra: string, cantidad: number): string {
  
 let caracter: string = preguntar('¿Con que caracter vas a dibujar el cuadrado? ');
 let tamaño: number = Number(preguntar('¿De qué tamaño? '));
-
+let tamaño2: number= tamaño
 while (tamaño >0) { 
-  console.log (caracter)
-tamaño= tamaño-1 
+  console.log (repetirLetra(caracter, tamaño2, ))
+tamaño= tamaño - 1
 }
